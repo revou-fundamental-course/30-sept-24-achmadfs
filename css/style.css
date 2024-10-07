@@ -1,6 +1,10 @@
 body{
     text-align: center;
 }
+header {
+    background-color: aqua;
+    color: black;
+}
 .suhu {
     font-family: math;
     font-size: 20px;
