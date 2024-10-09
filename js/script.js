@@ -1,3 +1,7 @@
 //Ini JavaScript
 
-console.log(java script tersambung)
+console.log('java script tersambung')
+
+function validateform() {
+
+}
