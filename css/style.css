@@ -11,3 +11,15 @@ header {
     font-weight: bold;
     font-style: italic;
 }
+
+#suhu-celsius {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+#suhu-farenheit {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
