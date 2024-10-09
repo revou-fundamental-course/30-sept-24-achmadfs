@@ -21,13 +21,13 @@
             <p>Celcius (&deg;C) :</p>
         </div>
         <div>
-            <input name="suhu-celsius" id="suhu-celsius"  type="number" required></input>
+            <input type="number" id="suhu-celsius"  required></input>
         </div>
         <br></br>
         <div>
             <button type="button" onclick="validateform()" class="btn-konversi">Konversi</button>
-            <button type="button" class="btn-reset">Reset</button>
-            <button type="button" class="btn-reserve">Reserve</button>
+            <button type="button" onclick="reset()" class="btn-reset">Reset</button>
+            <button type="button" onclick="reset()" class="btn-reserve">Reserve</button>
         </div>
 
         <!--Form Output Suhu-->
@@ -35,7 +35,7 @@
             <p>Farenheit (&deg;F) :</p>
         </div>
         <div>
-            <input name="suhu-farenheit" id="suhu-farenheit" type="number"></input>
+            <input id="suhu-farenheit" type="number" disabled></input>
         </div>
 
         <!--Form Kalkulasi-->
@@ -43,7 +43,7 @@
             <p>Cara Kalkulas :</p>
         </div>
         <div>
-            <textarea name="cara-kalkulasi" id="cara-kalkulasi"></textarea>
+            <textarea name="cara-kalkulasi" id="cara-kalkulasi" disabled></textarea>
         </div>
         <!--Penjelasan Konversi-->
         <div>

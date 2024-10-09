@@ -14,5 +14,15 @@ function validateform() {
 }
 
 function calculate(Value) {
-    console.log(parseInt(Value) + 1);
+    let result (parseInt(Value) + 1);
+    document.getElementsById('suhu-celsius').Value = result;
+    document.getElementById('cara-kalkulasi').Value = Value + 'x s = ' + result;
+}
+
+function reset() {
+    document.getElementById('suhu-celsius').Value = '';
+    document.getElementById('suhu-farenheit').Value = '';
+    
+    document.getElementById('cara-kalkulasi').Value = '';
+    console.log('bawah')
 }
