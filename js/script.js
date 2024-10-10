@@ -9,14 +9,14 @@ function validateform() {
     if (inputSuhu == '') {
         alert('Input Kosong atau Salah');
     } else {
-        calculate(inputSuhu);
+        validateform(inputSuhu).Value;
     }
 }
 
 function calculate(Value) {
-    let result (parseInt(Value) + 1);
+    let result (parseInt(Value) * 1,8 + 32);
     document.getElementsById('suhu-celsius').Value = result;
-    document.getElementById('cara-kalkulasi').Value = Value + 'x s = ' + result;
+    document.getElementById('cara-kalkulasi').Value = Value + 'x' + 1,8 + = + result;
 }
 
 function reset() {
